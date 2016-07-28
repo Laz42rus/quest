@@ -1,0 +1,56 @@
+body {
+   /*  background-image: url(pic/background.jpg); Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+   }
+p {color: #900;
+ font-size: 13pt; /* Размер шрифта в пунктах */
+ margin: 5px;
+}
+.zag {color: #900;
+ font-size: 20pt; /* Размер шрифта в пунктах */
+ text-align: center; /* Выравнивание по центру */
+ font-weight: bold; /* Жирность текста */
+ margin-top: 0;
+}
+.podzag {color: #900;
+ font-size: 15pt; /* Размер шрифта в пунктах */
+ margin: 0 10px;
+}
+#container {
+ width: 100%; /* Ширина макета */
+ margin: 0 auto; /* Выравнивание по центру */
+ height: 100%;
+}
+#header {
+  color: #a52a2a; /* Цвет заголовка */
+  font-size: 60pt; /* Размер шрифта в пунктах */
+  font-family: 'Indie Flower', cursive;  /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  text-align: center; /* Выравнивание по центру */
+}
+#left {
+ background-color: #606060; /* Цвет фона */
+ width: 20%; /* Ширина левой колонки */
+ float: left;
+ height: 100%;
+ }
+#center {
+ background-color: #606060; /* Цвет фона */
+ width: 60%; /* Ширина центральной колонки */
+/* margin: 0 20% 0 20%;  Отступ от верх прав низ лев края*/
+ margin-left: 20%;
+ height: 100%;
+}
+#right {
+ width: 20%; /* Ширина правой колонки */
+ /*float: right;*/
+ margin-left: 80%;
+ height: 100%;
+}
+#podval {
+  color: #fff; /* Цвет заголовка */
+  font-size: 10pt; /* Размер шрифта в пунктах */
+  font-family: 'Indie Flower', cursive;  /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  text-align: left; /* Выравнивание по левому краю */
+}
