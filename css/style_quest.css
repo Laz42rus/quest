@@ -18,12 +18,11 @@ p {color: #900;
  margin: 0 10px;
 }
 .zdvig_l{ margin-left: 1%;
-	
 }
 #container {
  width: 100%; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
- height: 1024px;
+ height: 100%;
 }
 #header {
   color: #a52a2a; /* Цвет заголовка */
@@ -36,7 +35,7 @@ p {color: #900;
  background-color: #606060; /* Цвет фона */
  width: 20%; /* Ширина левой колонки */
  float: left;
- height: 1500px;
+ height: 100%;
  padding-bottom: 60px;
  }
 #center {
@@ -44,7 +43,7 @@ p {color: #900;
  width: 60%; /* Ширина центральной колонки */
 /* margin: 0 20% 0 20%;  Отступ от верх прав низ лев края*/
  margin-left: 20%;
- height: 2000px;
+ height: 100%;
  padding-bottom: 60px;
 }
 #right {
