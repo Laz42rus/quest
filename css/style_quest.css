@@ -1,5 +1,14 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
 body { background-attachment: fixed; /* Фиксируем фон веб-страницы */
 	min-width: 800px;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
    }
 p {color: #bb0;
  font-size: 13pt; /* Размер шрифта в пунктах */
@@ -47,10 +56,16 @@ p {color: #bb0;
 }
 .margin_l{ margin-left: 1%;
 }
+#body-wrapper{
+  min-height: 100%;
+  width: 100%;
+}
 #container {
+ display: table;
  width: 100%; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
  /*height: 100%;*/
+ margin-bottom: 100px;
 }
 #header {
   color: #a52a2a; /* Цвет заголовка */
@@ -60,12 +75,14 @@ p {color: #bb0;
   text-align: center; /* Выравнивание по центру */
 }
 #left {
+ display: table-cell;
  background-color: #606060; /* Цвет фона */
  width: 20%; /* Ширина левой колонки */
  float: left;
  height: 100%;
  }
 #center {
+ display: table-cell;
  background-color: #454545; /* Цвет фона */
  width: 60%; /* Ширина центральной колонки */
  float: left;
@@ -74,6 +91,7 @@ p {color: #bb0;
  height: 100%;
 }
 #right {
+ display: table-cell;
  width: 20%; /* Ширина правой колонки */
  float: left;
 /* margin-left: 80%;*/
