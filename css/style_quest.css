@@ -1,19 +1,23 @@
-body {
-   /*  background-image: url(pic/background.jpg); Путь к фоновому изображению */
-    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+body { background-attachment: fixed; /* Фиксируем фон веб-страницы */
 	min-width: 800px;
    }
-p {color: #900;
+p {color: #bb0;
  font-size: 13pt; /* Размер шрифта в пунктах */
  margin: 5px;
 }
-.zag {color: #900;
+.zag {color: #f00;
  font-size: 20pt; /* Размер шрифта в пунктах */
  text-align: center; /* Выравнивание по центру */
  font-weight: bold; /* Жирность текста */
  margin-top: 0;
 }
-.podzag {color: #900;
+.zag_2 {color: #f00;
+ font-size: 20pt; /* Размер шрифта в пунктах */
+ text-align: center; /* Выравнивание по центру */
+ font-weight: bold; /* Жирность текста */
+margin-top: 15px;
+}
+.podzag {color: #dd0;
  font-size: 15pt; /* Размер шрифта в пунктах */
  margin: 0 10px;
 }
@@ -22,7 +26,7 @@ p {color: #900;
 #container {
  width: 100%; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
- height: 100%;
+ /*height: 100%;*/
 }
 #header {
   color: #a52a2a; /* Цвет заголовка */
@@ -36,22 +40,20 @@ p {color: #900;
  width: 20%; /* Ширина левой колонки */
  float: left;
  height: 100%;
- padding-bottom: 60px;
  }
 #center {
- background-color: #606060; /* Цвет фона */
+ background-color: #454545; /* Цвет фона */
  width: 60%; /* Ширина центральной колонки */
+ float: left;
 /* margin: 0 20% 0 20%;  Отступ от верх прав низ лев края*/
- margin-left: 20%;
+ /*margin-left: 20%;*/
  height: 100%;
- padding-bottom: 60px;
 }
 #right {
  width: 20%; /* Ширина правой колонки */
- float: right;
- /*margin-left: 80%;*/
+ float: left;
+/* margin-left: 80%;*/
  height: 100%;
- padding-bottom: 60px;
 }
 #footer {
   color: #fff; /* Цвет заголовка */
@@ -59,8 +61,7 @@ p {color: #900;
   font-family: 'Indie Flower', cursive;  /* Семейство шрифтов */
   font-weight: normal; /* Нормальное начертание текста  */
   text-align: left; /* Выравнивание по левому краю */
-  margin-top: 20px;
-  position: relative;
   width: 100%;
   height: 50px;
+  margin-top: -80px;
 }
