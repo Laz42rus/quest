@@ -1,15 +1,18 @@
 html {
-  height: 100%;
-  min-height: 100%;
+	height: 100%;
+    min-height: 100%;
 }
-body { background-attachment: fixed; /* Фиксируем фон веб-страницы */
+body {
+	background: url("../pic/background.jpg") no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed; /* Фиксируем фон веб-страницы */
 	min-width: 800px;
   min-height: 100%;
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-   }
+}
 p {color: #bb0;
  font-size: 13pt; /* Размер шрифта в пунктах */
  margin: 5px;
@@ -19,6 +22,9 @@ p {color: #bb0;
  text-align: center; /* Выравнивание по центру */
  font-weight: bold; /* Жирность текста */
  margin-top: 0;
+}
+.title_top_margin {
+	margin-top: 15px;
 }
 .zag_2 {color: #f00;
  font-size: 20pt; /* Размер шрифта в пунктах */
@@ -49,6 +55,7 @@ p {color: #bb0;
 .podzag {color: #dd0;
  font-size: 15pt; /* Размер шрифта в пунктах */
  margin: 0 10px;
+ text-align:right;
 }
 .podzag_2 {color: #f00;
  font-size: 15pt; /* Размер шрифта в пунктах */
@@ -62,10 +69,23 @@ p {color: #bb0;
 }
 #container {
  display: table;
- width: 100%; /* Ширина макета */
+ width: 1000px; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
  /*height: 100%;*/
  margin-bottom: 100px;
+}
+.row{
+	width: 100%;
+}
+.row  div {
+	float: left;
+}
+.left{
+	width: 70%;
+}
+.right{
+	width: 30%;
+	text-align: right;
 }
 #header {
   color: #a52a2a; /* Цвет заголовка */
@@ -77,14 +97,14 @@ p {color: #bb0;
 #left {
  display: table-cell;
  background-color: #606060; /* Цвет фона */
- width: 20%; /* Ширина левой колонки */
+ width: 200px; /* Ширина левой колонки */
  float: left;
  height: 100%;
  }
 #center {
  display: table-cell;
  background-color: #454545; /* Цвет фона */
- width: 60%; /* Ширина центральной колонки */
+ width: 600px; /* Ширина центральной колонки */
  float: left;
 /* margin: 0 20% 0 20%;  Отступ от верх прав низ лев края*/
  /*margin-left: 20%;*/
@@ -92,7 +112,7 @@ p {color: #bb0;
 }
 #right {
  display: table-cell;
- width: 20%; /* Ширина правой колонки */
+ width: 200px; /* Ширина правой колонки */
  float: left;
 /* margin-left: 80%;*/
  height: 100%;
@@ -106,4 +126,26 @@ p {color: #bb0;
   width: 100%;
   height: 50px;
   margin-top: -80px;
+}
+.example-button {
+	background-color: #fff;
+	padding: 3px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	border: 1px solid #d2d5d6;
+	text-decoration: none;
+	color: gray;
+	cursor: default;
+	
+	background: #f2f5f6; /* Old browsers */
+	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.example-button:hover {
+	background-color: red;
+	background: #e1ffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
