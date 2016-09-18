@@ -20,14 +20,21 @@ body {
 }
 #container {
  display: table;
+ border-collapse:collapse;
  width: 1000px; /* Ширина макета */
  margin: 0 auto; /* Выравнивание по центру */
  margin-bottom: 100px;
+}
+#container-wrapper {
+    display:table-row;
 }
 .margin_l{ margin-left: 1%;
 }
 .row{
 	width: 100%;
+	height: 30px;
+	background-color: #606060;
+	
 }
 .row  div {
 	float: left;
@@ -39,6 +46,7 @@ body {
 	width: 30%;
 	text-align: right;
 }
+
 #header {
   color: #a52a2a; /* Цвет заголовка */
   font-size: 60pt; /* Размер шрифта в пунктах */
@@ -50,20 +58,21 @@ body {
  display: table-cell;
  background-color: #606060; /* Цвет фона */
  width: 200px; /* Ширина левой колонки */
- float: left; /*Выравнивание по левому краю */
+ /*float: left;*/ /*Выравнивание по левому краю */
  height: 100%;
+ min-height: 100%;
  }
 #center {
  display: table-cell;
  background-color: #454545; /* Цвет фона */
  width: 600px; /* Ширина центральной колонки */
- float: left; /*Выравнивание по левому краю */
+ /*float: left;*/ /*Выравнивание по левому краю */
  height: 100%;
 }
 #right {
  display: table-cell;
  width: 200px; /* Ширина правой колонки */
- float: left; /*Выравнивание по левому краю */
+ /*float: left;*/ /*Выравнивание по левому краю */
  height: 100%;
 }
 #footer {
@@ -76,6 +85,7 @@ body {
   height: 50px;
   margin-top: -80px;
 }
+
 
 
 /* buttons */
@@ -103,7 +113,13 @@ body {
 	background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-
+.left-wrapper, .center-wrapper, .right-wrapper{
+	height: 0;
+}
+.right-wrapper img {
+	display: block;
+	width: 100px;
+}
 /*fonts*/
 
 p {color: #bb0;
