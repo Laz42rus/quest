@@ -30,11 +30,14 @@ body {
 }
 .margin_l{ margin-left: 6px;
 }
+
+.padding{
+	padding: 3px;
+}
 .row{
 	width: 100%;
 	height: 30px;
-	background-color: #606060;
-	
+	background-color: #666;
 }
 .row  div {
 	float: left;
@@ -46,6 +49,19 @@ body {
 	width: 30%;
 	text-align: right;
 }
+.row_2{
+	width: 600px;
+	height: 176px;
+}
+.row_2 div {
+	float: left;
+}
+.left_2{
+	width: 162px;
+}
+.right_2{
+	width: 438px;
+}
 
 #header {
   color: #a52a2a; /* Цвет заголовка */
@@ -56,11 +72,12 @@ body {
 }
 #left {
  display: table-cell;
- background-color: #606060; /* Цвет фона */
+ background-color: #454545; /* Цвет фона */
  width: 200px; /* Ширина левой колонки */
  /*float: left;*/ /*Выравнивание по левому краю */
  height: 100%;
  min-height: 100%;
+ border-right: 2px solid #dd0;
  }
 #center {
  display: table-cell;
@@ -97,7 +114,7 @@ body {
 	-moz-border-radius: 7px;
 	border: 1px solid #d2d5d6;
 	text-decoration: none;
-	color: gray;
+	color: black;
 	cursor: default;
 	width: 60px;
 	
@@ -121,7 +138,7 @@ body {
 	-moz-border-radius: 7px;
 	border: 1px solid #d2d5d6;
 	text-decoration: none;
-	color: gray;
+	color: black;
 	cursor: default;
 	margin-left: 6px;
 	
@@ -136,6 +153,30 @@ body {
 	background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.example-button_2 {
+	background-color: #fff;
+	padding: 3px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	border: 1px solid #d2d5d6;
+	text-decoration: none;
+	color: black;
+	cursor: default;
+	width: 194px;
+	
+	background: rgb(157,213,58); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.example-button_2:hover {
+	background-color: red;
+	background: rgb(191,210,85); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .left-wrapper, .center-wrapper, .right-wrapper{
@@ -194,4 +235,17 @@ p {color: #bb0;
 .podzag_2 {color: #f00;
  font-size: 15pt; /* Размер шрифта в пунктах */
  margin: 0 10px;
+}
+.podzag_3 {color: #dd0;
+ font-size: 15pt; /* Размер шрифта в пунктах */
+margin: 0 10px;
+}
+.podzag_4 {color: #f00;
+ font-size: 15pt; /* Размер шрифта в пунктах */
+ margin: 0 10px;
+ text-align: center;
+}
+
+.line  {
+ border-top: 1px dashed #bb0; /* Параметры линии */
 }
