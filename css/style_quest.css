@@ -1,251 +1,294 @@
 html {
-	height: 100%;
+    height: 100%;
     min-height: 100%;
 }
+
 body {
-	background: url("../pic/background.jpg") no-repeat;
-	background-size: cover;
-	background-attachment: fixed; /* Фиксируем фон веб-страницы */
-	background-position: center center;
-	min-width: 800px;
-	min-height: 100%;
-	height: 100%;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-#body-wrapper{
-  min-height: 100%;
-  width: 100%;
-}
-#container {
- display: table;
- border-collapse:collapse;
- width: 1000px; /* Ширина макета */
- margin: 0 auto; /* Выравнивание по центру */
- margin-bottom: 100px;
-}
-#container-wrapper {
-    display:table-row;
-}
-.margin_l{ margin-left: 6px;
+    background: url("../pic/background.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    background-position: center center;
+    min-width: 800px;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.padding{
-	padding: 3px;
+#body-wrapper {
+    min-height: 100%;
+    width: 100%;
 }
-.row{
-	width: 100%;
-	height: 30px;
-	background-color: #666;
+
+#container {
+    display: table;
+    border-collapse: collapse;
+    width: 1000px; /* Ширина макета */
+    margin: 0 auto; /* Выравнивание по центру */
+    margin-bottom: 100px;
 }
-.row  div {
-	float: left;
+
+#container-wrapper {
+    display: table-row;
 }
-.left{
-	width: 70%;
+
+.margin_l {
+    margin-left: 6px;
 }
-.right{
-	width: 30%;
-	text-align: right;
+
+.row {
+    width: 100%;
+    height: 30px;
+    background-color: #666;
 }
-.row_2{
-	width: 600px;
-	height: 176px;
+
+.row div {
+    float: left;
 }
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+    text-align: right;
+}
+
+.row_2 {
+    width: 600px;
+    height: 176px;
+}
+
 .row_2 div {
-	float: left;
+    float: left;
 }
-.left_2{
-	width: 162px;
+
+.left_2 {
+    width: 162px;
 }
-.right_2{
-	width: 438px;
+
+.right_2 {
+    width: 438px;
 }
 
 #header {
-  color: #a52a2a; /* Цвет заголовка */
-  font-size: 60pt; /* Размер шрифта в пунктах */
-  font-family: 'Indie Flower', cursive;  /* Семейство шрифтов */
-  font-weight: normal; /* Нормальное начертание текста  */
-  text-align: center; /* Выравнивание текста по центру */
+    color: #a52a2a; /* Цвет заголовка */
+    font-size: 60pt; /* Размер шрифта в пунктах */
+    font-family: 'Indie Flower', cursive; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+    text-align: center; /* Выравнивание текста по центру */
 }
+
 #left {
- display: table-cell;
- background-color: #454545; /* Цвет фона */
- width: 200px; /* Ширина левой колонки */
- /*float: left;*/ /*Выравнивание по левому краю */
- height: 100%;
- min-height: 100%;
- border-right: 2px solid #dd0;
- }
+    display: table-cell;
+    background-color: #454545; /* Цвет фона */
+    width: 200px; /* Ширина левой колонки */
+    /*float: left;*/ /*Выравнивание по левому краю */
+    height: 100%;
+    min-height: 100%;
+    border-right: 2px solid #dd0;
+}
+
+#left p {
+    padding-bottom: 3px;
+}
+
+#left a {
+    display: block;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    border: 1px solid #d2d5d6;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    width: 194px;
+    background: rgb(157, 213, 58); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(157, 213, 58, 1) 0%, rgba(161, 213, 79, 1) 50%, rgba(128, 194, 23, 1) 51%, rgba(124, 188, 10, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(157, 213, 58, 1) 0%, rgba(161, 213, 79, 1) 50%, rgba(128, 194, 23, 1) 51%, rgba(124, 188, 10, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(157, 213, 58, 1) 0%, rgba(161, 213, 79, 1) 50%, rgba(128, 194, 23, 1) 51%, rgba(124, 188, 10, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#left a:hover {
+    background-color: red;
+    background: rgb(191, 210, 85); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 50%, rgba(114, 170, 0, 1) 51%, rgba(158, 203, 45, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 50%, rgba(114, 170, 0, 1) 51%, rgba(158, 203, 45, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 50%, rgba(114, 170, 0, 1) 51%, rgba(158, 203, 45, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
 #center {
- display: table-cell;
- background-color: #454545; /* Цвет фона */
- width: 600px; /* Ширина центральной колонки */
- /*float: left;*/ /*Выравнивание по левому краю */
- height: 100%;
+    display: table-cell;
+    background-color: #454545; /* Цвет фона */
+    width: 600px; /* Ширина центральной колонки */
+    height: 100%;
 }
+
 #right {
- display: table-cell;
- width: 200px; /* Ширина правой колонки */
- /*float: left;*/ /*Выравнивание по левому краю */
- height: 100%;
+    display: table-cell;
+    width: 200px; /* Ширина правой колонки */
+    height: 100%;
 }
+
+#right img {
+    margin-bottom: -100px;
+}
+
 #footer {
-  color: #fff; /* Цвет заголовка */
-  font-size: 10px; /* Размер шрифта в пикселях */
-  font-family: 'Indie Flower', cursive;  /* Семейство шрифтов */
-  font-weight: normal; /* Нормальное начертание текста  */
-  text-align: left; /* Выравнивание текста по левому краю */
-  width: 100%;
-  height: 50px;
-  margin-top: -80px;
+    color: #fff; /* Цвет заголовка */
+    font-size: 10px; /* Размер шрифта в пикселях */
+    font-family: 'Indie Flower', cursive; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+    text-align: left; /* Выравнивание текста по левому краю */
+    width: 100%;
+    height: 50px;
+    margin-top: -80px;
 }
-
-
 
 /* buttons */
 
 .example-button {
-	background-color: #fff;
-	padding: 3px;
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	border: 1px solid #d2d5d6;
-	text-decoration: none;
-	color: black;
-	cursor: default;
-	width: 60px;
-	
-	background: #f2f5f6; /* Old browsers */
-	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    border: 1px solid #d2d5d6;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    width: 60px;
+
+    background: #f2f5f6; /* Old browsers */
+    background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
 .example-button:hover {
-	background-color: red;
-	background: #e1ffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: red;
+    background: #e1ffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .example-button_1 {
-	background-color: #fff;
-	padding: 3px;
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	border: 1px solid #d2d5d6;
-	text-decoration: none;
-	color: black;
-	cursor: default;
-	margin-left: 6px;
-	
-	background: #f2f5f6; /* Old browsers */
-	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    border: 1px solid #d2d5d6;
+    text-decoration: none;
+    color: black;
+    cursor: default;
+    margin-left: 6px;
+    margin-bottom: 2px;
+
+    background: #f2f5f6; /* Old browsers */
+    background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
 .example-button_1:hover {
-	background-color: red;
-	background: #e1ffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-color: red;
+    background: #e1ffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-.example-button_2 {
-	background-color: #fff;
-	padding: 3px;
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	border: 1px solid #d2d5d6;
-	text-decoration: none;
-	color: black;
-	cursor: default;
-	width: 194px;
-	
-	background: rgb(157,213,58); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(157,213,58,1) 0%, rgba(161,213,79,1) 50%, rgba(128,194,23,1) 51%, rgba(124,188,10,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(157,213,58,1) 0%,rgba(161,213,79,1) 50%,rgba(128,194,23,1) 51%,rgba(124,188,10,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-}
-.example-button_2:hover {
-	background-color: red;
-	background: rgb(191,210,85); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+.left-wrapper, .center-wrapper, .right-wrapper {
+    height: 0;
 }
 
-.left-wrapper, .center-wrapper, .right-wrapper{
-	height: 0;
-}
 .right-wrapper img {
-	display: block;
-	width: 100px;
+    display: block;
+    width: 100px;
 }
+
 /*fonts*/
 
-p {color: #bb0;
- font-size: 13pt; /* Размер шрифта в пунктах */
- margin: 5px;
-}
-.zag {color: #f00;
- font-size: 20pt; /* Размер шрифта в пунктах */
- text-align: center; /* Выравнивание по центру */
- font-weight: bold; /* Жирность текста */
- margin-top: 0;
-}
-.title_top_margin {
-	margin-top: 15px;
-}
-.zag_2 {color: #f00;
- font-size: 20pt; /* Размер шрифта в пунктах */
- text-align: center; /* Выравнивание по центру */
- font-weight: bold; /* Жирность текста */
- margin-top: 15px;
-}
-.zag_3{color: #f00;
- font-size: 20pt; /* Размер шрифта в пунктах */
- text-align: left; /* Выравнивание по центру */
- font-weight: bold; /* Жирность текста */
- margin-top: 0;
-}
-.zag_4{color: #f00;
- background-color: #606060; /* Цвет фона */
- font-size: 18pt; /* Размер шрифта в пунктах */
- text-align: left; /* Выравнивание по центру */
- font-weight: bold; /* Жирность текста */
- margin-top: 0;
-}
-.zag_5 {color: #fff;
- font-size: 20pt; /* Размер шрифта в пунктах */
- text-align: left; /* Выравнивание по центру */
- font-weight: bold; /* Жирность текста */
- margin-top: 20px;
- margin-left: 20px;
-}
-.podzag {color: #dd0;
- font-size: 15pt; /* Размер шрифта в пунктах */
- margin: 0 10px;
- text-align:right;
-}
-.podzag_2 {color: #f00;
- font-size: 15pt; /* Размер шрифта в пунктах */
- margin: 0 10px;
-}
-.podzag_3 {color: #dd0;
- font-size: 15pt; /* Размер шрифта в пунктах */
-margin: 0 10px;
-}
-.podzag_4 {color: #f00;
- font-size: 15pt; /* Размер шрифта в пунктах */
- margin: 0 10px;
- text-align: center;
+p {
+    color: #bb0;
+    font-size: 13pt; /* Размер шрифта в пунктах */
+    margin: 5px;
 }
 
-.line  {
- border-top: 1px dashed #bb0; /* Параметры линии */
+.zag {
+    color: #f00;
+    font-size: 20pt; /* Размер шрифта в пунктах */
+    text-align: center; /* Выравнивание по центру */
+    font-weight: bold; /* Жирность текста */
+    margin-top: 0;
+}
+
+.title_top_margin {
+    margin-top: 15px;
+}
+
+.zag_2 {
+    color: #f00;
+    font-size: 20pt; /* Размер шрифта в пунктах */
+    text-align: center; /* Выравнивание по центру */
+    font-weight: bold; /* Жирность текста */
+    margin-top: 15px;
+}
+
+.zag_3, #center>#name>p {
+    color: #f00;
+    font-size: 20pt; /* Размер шрифта в пунктах */
+    text-align: left; /* Выравнивание по центру */
+    font-weight: bold; /* Жирность текста */
+    margin-top: 0;
+}
+
+.zag_4, #center>.row>.left p {
+    color: #f00;
+    background-color: #606060; /* Цвет фона */
+    font-size: 18pt; /* Размер шрифта в пунктах */
+    text-align: left; /* Выравнивание по центру */
+    font-weight: bold; /* Жирность текста */
+    margin-top: 0;
+}
+
+.zag_5 {
+    color: #fff;
+    font-size: 20pt; /* Размер шрифта в пунктах */
+    text-align: left; /* Выравнивание по центру */
+    font-weight: bold; /* Жирность текста */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.podzag, #center>div>p span {
+    color: #dd0;
+    font-size: 15pt; /* Размер шрифта в пунктах */
+    margin: 0 10px;
+}
+
+.podzag_2, #center>div>p{
+    color: #f00;
+    font-size: 15pt; /* Размер шрифта в пунктах */
+    margin: 0 10px;
+}
+
+.podzag_3, .right_2 p, #center>.row>p {
+    color: #dd0;
+    font-size: 15pt; /* Размер шрифта в пунктах */
+    margin: 0 10px;
+}
+
+.podzag_4, #center>p, .centered{
+    color: #f00;
+    font-size: 15pt; /* Размер шрифта в пунктах */
+    margin: 0 10px;
+    text-align: center;
+}
+
+.line {
+    border-top: 1px dashed #bb0; /* Параметры линии */
 }
