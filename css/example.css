@@ -1,4 +1,21 @@
-.zag {
+#center div p {
+  color: #f00;
+  font-size: 15pt;
+  margin: 0 10px; }
+
+.zag, .zag_2, .zag_3, .zag_4 {
   color: #f00; }
+
+.zag_3 {
+  font-size: 20pt; }
+
+.zag, .zag_2, .zag_3, .zag_4 {
+  color: #f00;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: bold; }
+
+.zag_2 {
+  margin-top: 15px; }
 
 /*# sourceMappingURL=example.css.map */

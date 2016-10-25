@@ -1,3 +1,4 @@
+@import private
 
 $primary-color: #f00
 $color_second: #dd0
@@ -6,3 +7,25 @@ $color_third: #bb0
 
 .zag
   color: $primary-color
+
+=font-my($size)
+  font-size: $size
+
+
+.zag_3
+  +font-my(20pt)
+
+
+.zag
+  color: #f00
+  font-size: 20pt
+  text-align: center
+  font-weight: bold
+
+.zag_2
+  @extend .zag
+  margin-top: 15px 
+.zag_3
+  @extend .zag
+.zag_4
+  @extend .zag
