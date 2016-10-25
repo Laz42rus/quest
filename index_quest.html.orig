@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html>
+<<<<<<< HEAD
 <head>
     <meta charset="utf-8">
     <title>Городские квест игры</title>
@@ -7,8 +8,18 @@
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="shortcut icon" href="pic/favicon.png" type="image/png">
 </head>
-
 <body>
+=======
+ <head>
+  <meta charset="utf-8">
+  <title>Городские квест игры</title>
+   <link rel="stylesheet" type="text/css" href="css/style_quest.css">
+   <link rel="stylesheet" type="text/css" href="css/fonts.css">
+   <link rel="shortcut icon" href="pic/favicon.png" type="image/png">
+ </head>
+
+ <body>
+>>>>>>> 1e52afa64c3737906148d1ccfe0f3aaad1a8d358
 <div id="body-wrapper">
     <div id="header">Название проекта</div>
     <div id="container">
@@ -47,5 +58,10 @@
     </div>
 </div>
 <div id="footer">Давыденко Иван</div>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+ </body>
+</html>
+>>>>>>> 1e52afa64c3737906148d1ccfe0f3aaad1a8d358
